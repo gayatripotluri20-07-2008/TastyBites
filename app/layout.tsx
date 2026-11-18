@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 
-export const metadata: Metadata = {
-  title: "NextBites",
-  description: "Find your next bite.",
-};
+
 
 export default function RootLayout({
   children,
@@ -21,3 +18,7 @@ export default function RootLayout({
     </html>
   );
 }
+export const metadata = {
+  title: "NextBites · Quick recipes you'll actually cook",
+  description: "A tiny recipe app built with Next.js.",
+};
