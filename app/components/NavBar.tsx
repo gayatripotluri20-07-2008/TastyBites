@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <Link href="/" className="nav-brand">
-        🍽️ NextBites
+        🍽️ TastyBites
       </Link>
       <div className="nav-links">
         <Link href="/">Home</Link>
